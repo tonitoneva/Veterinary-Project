@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinary</title>
+    <link rel="stylesheet" href="./assets/css/products.css">
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="container">
+                <img id="logo" src="/assets/images/Logo.png" alt="logo">
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Начало</a></li>
+                        <li><a href="/about.html">За нас</a></li>
+                        <li><a href="/products.html">Предложения</a></li>
+                        <li><a href="/contacts.html">Контакт</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="first">
+        <div class="container">
+            <div class="content">
+                <h1>Предложения</h1>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="category">
+            <h2>Изберете категория и разгледайте нашите предложения: <select id="category-selector">
+                <option value="products">Продукти</option>
+                <option value="services">Услуги</option>
+            </select>
+            <select id="animals-selector" style="display: none;">
+                <option value="all">Всичко</option>
+                <option value="dogProducts">Кучета</option>
+                <option value="catProducts">Котки</option>
+            </select></h2>
+
+
+        </div>
+        <section id="products-section">
+
+        </section>
+    </section>
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <div class="image-name">
+                <img id="modal-product-image" alt="Product Image">
+                <p id="modal-product-text"></p>
+            </div>
+            <form>
+                <h2 id="modal-product-name"></h2><br>
+                <label for="quantity">Количество:</label>
+                <input type="number" id="quantity" name="quantity" min="0" max="50" value="1" style="width: 60px;">
+                <p id="modal-product-price"></p><br>
+                <label for="names">Имена:</label>
+                <input type="text" id="names" name="names" required><br><br>
+                <label for="emails">Имейл:</label>
+                <input type="email" id="emails" name="emails" required>
+                <label for="payment">Изберете начин на плащане:</label><br>
+                <div class="left-radio" aria-required="true">
+                    <input type="radio" id="visa" name="payment">
+                    <label for="visa">VISA</label><br>
+                    <input type="radio" id="Paypal" name="payment">
+                    <label for="Paypal">PayPal</label><br>
+                    <input type="radio" id="mastercard" name="payment">
+                    <label for="mastercard">MasterCard</label><br>
+                    <input type="radio" id="americanExpress" name="payment">
+                    <label for="americanExpress">AmericanExpress</label><br>
+                </div>
+                <label for="card-number">Номер на карта:</label>
+                <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" 
+                    maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required><br><br>
+                <button type="submit">Плати</button>
+            </form>
+            <div class="close-window">
+                <span class="close">&times;</span>
+            </div>
+        </div>
+    </div>
+    <section id="footer">
+        <div class="container">
+            <div class="bio1">
+                <h4>За нас</h4>
+                <ul>
+                    <li><a href="/about.html">История</a></li>
+                    <li><a href="/index.html#five">Нашият екип</a></li>
+                    <li><a href="/index.html#two">Процедури</a></li>
+                    <li><a href="">Правила и условия</a</li>
+                    <li><a href="">Поверителност</a></li>
+                </ul>
+            </div>
+            <div class="bio2">
+                <h4>Услуги</h4>
+                <ul>
+                    <li><a href="/about.html">Как се случва?</a></li>
+                    <li><a href="/products.html">Нашите предложения</a></li>
+                    <li><a href="/index.html#four">Осиновяване</a></li>
+                    <li><a href="/index.html#seven">Публикации</a></li>
+                    <li><a href="/contacts.html">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="bio3">
+                <img src="/assets/images/animal-hope-varna.png"/>
+                
+                <img src="/assets/images/purina-sponsor.png"/>
+            </div>
+            <div class="bio4">
+                <img src="/assets/images/pedigree-sponsor.png"/>
+            </div>
+        </div>
+    </section>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>

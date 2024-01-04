@@ -1,0 +1,89 @@
+#seven {
+    margin: 140px 0;
+}
+
+#seven h2 {
+    font-size: 75px;
+    color: #313243;
+    font-weight: 700;
+    font-family: "poppinsregular";
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#seven p {
+    font-size: 33px;
+    color: #313243;
+    font-weight: 400;
+    font-family: "poppinsregular";
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#seven .container {
+    max-width: 1200px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 auto;    
+}
+
+#seven .container div {
+    border: 0px solid rgb(224, 219, 219);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+#seven .container div img {
+    width: 100%;
+}
+
+#seven .container div h4 {
+    font-size: 25px;
+    color: #313243;
+    font-weight: 600;
+    font-family: "poppinsregular";
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+
+#seven .container div p {
+    font-size: 17px;
+    color: #313243;
+    font-weight: 400;
+    font-family: "poppinsregular";
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+#seven .container div span {
+    font-size: 17px;
+    color: #00bec9;
+    font-weight: 400;
+    font-family: "poppinsregular";
+    margin-left: 20px;
+}
+
+#seven .container div h5 {
+    font-size: 21px;
+    color: #00bec9;
+    font-weight: 500;
+    font-family: "poppinsregular";
+    margin-left: 20px;
+}
+
+#seven .container div a{
+    text-decoration: none;
+    color: #00bec9;
+}
+
+#seven .container div a:hover {
+    color: rgb(22, 22, 22);
+    text-shadow: 1px 1px 10px rgb(0, 170, 192);
+} 

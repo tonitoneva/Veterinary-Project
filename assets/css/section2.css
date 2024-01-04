@@ -1,0 +1,54 @@
+#two {
+    background-color: #fcc302;
+    padding: 95px 0;
+    text-align: center;
+}
+
+#two h2 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "poppinsregular";
+}
+
+#two  p {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "poppinsregular";
+}
+
+#two .container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#two .container .service {
+    width: 30%;
+}
+
+#two .container .service img {
+    width: 100%;
+    margin: 50px auto;
+}
+
+#two .container .service h4 {
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "poppinsregular";
+    text-align: center;
+}
+
+#two .container .service p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "poppinsregular";
+    text-align: center; 
+}

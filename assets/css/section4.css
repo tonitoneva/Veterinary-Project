@@ -1,0 +1,70 @@
+#four {
+    background-color: #fcc302;
+    padding: 90px 0;
+}
+
+#four h2 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "poppinssemibold";
+    text-align: center;
+}
+
+#four p {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "poppinsregular";
+    text-align: center;
+}
+
+#four .container {
+    display: flex;
+    padding: 50px;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    gap: 50px;
+}
+
+#four .container .product{
+    margin: 50px auto 35px;
+    width: 30%;
+    text-align: center;
+}
+
+#four .container .product h3{
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "poppinsregular";
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+#four .container .product button {
+    width: 199px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #00bec9;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "poppinsregular";
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#four .container .product button:hover{
+    background-color: #ffffff;
+    color: #00bec9;
+}

@@ -1,0 +1,100 @@
+    #second .container{
+        display: flex;
+        max-width: 1440px;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .container .form{
+        margin-left: 120px;
+    }
+
+    .myForm {
+        font-size: 18px;
+        width: 380px;
+        padding: 16px;
+        border: 1px solid #ccc;
+        border: none;
+        }
+        
+    .myForm * {
+        box-sizing: border-box;
+    }
+        
+    .myForm fieldset {
+        border: none;
+        padding: 0;
+    }
+        
+    .myForm legend,
+    .myForm label {
+        padding: 0;
+        font-weight: bold;
+    }   
+        
+    .myForm label.choice {
+        font-size: 14px;
+        font-weight: normal;
+    }
+        
+    .myForm input[type="text"],
+    .myForm input[type="tel"],
+    .myForm input[type="email"],
+    .myForm input[type="datetime-local"],
+    .myForm select,
+    .myForm textarea {
+        display: block;
+        width: 100%;
+        border: 1px solid #ccc;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 14px;
+        padding: 5px;
+    }
+        
+    .myForm textarea {
+        height: 150px;
+    }
+        
+    .myForm button {
+        padding: 8px;
+        border-radius: 8px;
+        background: #fcc302;
+        border: none;
+        font-weight: bold;
+        margin-top: 16px;
+    }
+        
+    .myForm button:hover {
+    background: white;
+    cursor: pointer;
+    color: #fcc302;
+    border: 1px solid #fcc302;
+    }
+
+    #second .container .contacts{
+        margin: 0 auto;
+    }
+
+    #second .container .map{
+        width: 700px;
+    }
+
+    #second .contacts ul{
+        list-style-type: none;
+    }
+
+    #second .contacts ul li {
+        width: 430px;
+        height: 60px;
+        font-size: 40px;
+        border-radius: 20px;
+        background-color: #fcc302;
+        margin-bottom: 50px;
+        align-items: center ;
+        text-align: center;
+    }

@@ -1,0 +1,61 @@
+#five {
+    padding: 140px 0px;
+}
+
+#five h2 {
+    font-size: 75px;
+    color: #313243;
+    font-family: "poppinsregular";
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#five p {
+    font-size: 33px;
+    color: #313243;
+    font-family: "poppinsregular";
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#five .container {
+    max-width: 1200px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#five .container .vet {
+    max-width: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+#five .container .vet img {
+    margin-bottom: 40px;
+}
+
+#five .container .vet h4 {
+    font-size: 33px;
+    color: #313243;
+    font-weight: 400;
+    font-family: "poppinssemibold";
+    text-align: center;
+}
+
+
+#five .container .vet .icons a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #daac00;
+    margin: 0 10px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}

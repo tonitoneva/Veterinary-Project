@@ -1,0 +1,105 @@
+header {
+    background-color: #fcc302;
+}
+
+header .nav-bar {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+header .nav-bar .container,
+header .header-banner .container {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#logo {
+    max-width: 250px;
+}
+
+header .nav-bar .container ul {
+    margin: 30px 0;
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+
+header .nav-bar .container ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header .nav-bar .container ul li a {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "poppinsregular";
+    text-decoration: none;
+}
+
+header .nav-bar .container ul li a:hover {
+    color: rgb(199, 129, 0);
+    text-shadow: 1px 1px 10px rgb(211, 137, 0);
+} 
+
+header .header-banner {
+    padding: 90px 0;
+}
+
+header .header-banner .container .content h1{
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "poppinsregular";
+}
+
+header .header-banner .container .content p{
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "poppinsregular";
+    margin: 45px 0;
+}
+
+header .header-banner .container .content button.btn,
+header .header-banner .container .content button.blue-btn {
+    font-size: 21px;
+    letter-spacing: 0;
+    color:#ffffff;
+    font-weight: 600;
+    font-family: 'poppinsregular';
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: #00bec9;
+    border: none;
+    justify-content: space-between;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+header .header-banner .container .content button.blue-btn:hover,
+header .header-banner .container .content button.btn:hover{
+    background-color: white;
+    color: #00bec9;
+}
+
+header .header-banner .container .content button.btn {
+    background-color: #fcc302;
+    border: 3px solid white;
+
+}
+
+header .header-banner .container .image-wrapper img {
+    transform: scaleX(-1);
+}
+
+

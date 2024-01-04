@@ -1,0 +1,22 @@
+#first {
+    background-color: #fcc302;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 300px;
+}
+
+#first .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+#first .container .content h1{
+    text-align: center;
+    font-size: 80px;
+    color: #000000;
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+}

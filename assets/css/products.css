@@ -1,0 +1,74 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(products-section1.css);
+@import url(gallery.css);
+@import url(footer.css);
+
+
+
+#product-modal .modal-content{
+    display: flex;
+    position: sticky;
+    background-color: #fcc20265;;
+    width: 900px;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20%;
+    justify-content: space-around;
+}
+
+.modal-content .close{
+    color: rgb(141, 5, 5);
+    font-size: 50px;
+    font-weight: 600;
+    text-align: right;
+    cursor: pointer;
+    position: relative;
+    bottom: 240px;
+    left: -20px;
+}
+
+.modal-content .close:hover{
+    color: red;
+}
+
+#modal-product-image{
+    margin: 0 auto;
+    max-height: 500px;
+    max-width: 350px;
+}
+
+.modal-content h2{
+    font-size: 20px;
+
+}
+
+form{
+    width: 300px;
+    height: 470px;
+    background-color: rgba(255, 255, 255, 0.932);
+    border-radius: 10%;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.left-radio{
+    text-align: left;
+}
+
+
+form button{
+    border-radius: 15%;
+    border: 0;
+    background-color:#fcc20265;
+    font-size: 18px;
+}
+
+form button:hover{
+    background-color: #fcc302;
+}
+
